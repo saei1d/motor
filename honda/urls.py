@@ -4,7 +4,7 @@ from honda.views import *
 
 urlpatterns = [
     path('honda/', Honda125.as_view()),
-    path('group/', GroupLavazem.as_view()),
-    path('lavazem/', Lavazem125.as_view())
+    path('group/<int:pk>/', GroupLavazem.as_view()),
+    path('lavazem/<int:pk>/', Lavazem125.as_view())
 
 ]

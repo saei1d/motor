@@ -33,7 +33,7 @@ class GroupLavazem(APIView):
 
 
 class Lavazem125(APIView):
-    def get(self, request,pk):
+    def get(self, request, pk):
         context = {}
         try:
             saeid = Lavazem.objects.filter(lavazem=pk)
