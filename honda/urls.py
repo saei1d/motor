@@ -8,3 +8,4 @@ urlpatterns = [
     path('lavazem/<int:pk>/', Lavazem125.as_view())
 
 ]
+##########
